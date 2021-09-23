@@ -8,7 +8,8 @@ const Contador = () => {
         <div>
             <h1 className={contador < 0 ? "menor" : "mayor"}>
                 Contador: {contador} {" "}
-                </h1>  
+            </h1>  
+            
             <hr />
 
             <button onClick={aumentar}>Aumentar</button>  
